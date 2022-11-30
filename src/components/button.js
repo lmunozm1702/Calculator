@@ -1,17 +1,17 @@
 import PropTypes from 'prop-types';
 
 function Button(props) {
-  const { a, b } = props;
+  const { value, className } = props;
   return (
-    <button type="button" className={a}>
-      {b}
+    <button type="button" className={className}>
+      {value}
     </button>
   );
 }
 
 Button.propTypes = {
-  a: PropTypes.number.isRequired,
-  b: PropTypes.number.isRequired,
+  value: PropTypes.number.isRequired,
+  className: PropTypes.string.isRequired,
 };
 
 export default Button;
