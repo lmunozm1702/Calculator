@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 function Button(props) {
   const { value, className } = props;
   return (
-    <button type="button" className={className}>
-      {value}
-    </button>
+    <div className={className}>
+      <button type="button" className="button">
+        {value}
+      </button>
+    </div>
   );
 }
 
