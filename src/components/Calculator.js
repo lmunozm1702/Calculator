@@ -34,11 +34,11 @@ class Calculator extends React.PureComponent {
           <div className="number"><button onClick={this.handleClick} type="button" className="button">AC</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">+/-</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">%</button></div>
-          <div className="number operator"><button onClick={this.handleClick} type="button" className="button">/</button></div>
+          <div className="number operator"><button onClick={this.handleClick} type="button" className="button">÷</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">7</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">8</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">9</button></div>
-          <div className="number operator"><button onClick={this.handleClick} type="button" className="button">X</button></div>
+          <div className="number operator"><button onClick={this.handleClick} type="button" className="button">x</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">4</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">5</button></div>
           <div className="number"><button onClick={this.handleClick} type="button" className="button">6</button></div>
