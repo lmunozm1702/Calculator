@@ -53,11 +53,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> To be defined
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Home page with description of the app]**
+- **[Calculator, to do dome math]**
+- **[Quote, to know best thinkers tell about math]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,6 +98,7 @@ Clone this repository to your desired folder: git@github.com:lmunozm1702/my-firs
 Install this project with: To be defined.
 
 npx create-react-app my-first-react
+npm i react-route-dom
 
 ### Usage
 
@@ -153,11 +152,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Home Page]**
-- [ ] **[Calculator]**
-- [ ] **[Quotes]**
+> To be defined.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
