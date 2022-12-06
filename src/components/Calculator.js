@@ -15,6 +15,7 @@ const Calculator = () => {
 
   return (
     <div className="App">
+      <h3>Let&apos;s do some math!</h3>
       <div className="screen">
         {total}
         {operation}
