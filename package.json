@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "start_p": "react-scripts start",
     "build": "react-scripts --openssl-legacy-provider build",
     "build_p": "react-scripts build",
     "test": "react-scripts test",
