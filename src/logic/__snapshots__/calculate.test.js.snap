@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will return 0 every time 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": 0,
+}
+`;
