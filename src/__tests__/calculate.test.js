@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer';
-import calculate from './calculate';
+import calculate from '../logic/calculate';
 
 /**
  * Given a button name and a calculator data object, return an updated
