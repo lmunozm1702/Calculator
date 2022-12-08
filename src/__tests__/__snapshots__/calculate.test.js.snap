@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`If operator is +/- and next 1`] = `
+Object {
+  "next": "-30",
+  "operation": null,
+  "total": 1000,
+}
+`;
+
+exports[`If operator is +/- no next and total 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "-1000",
+}
+`;
+
+exports[`If there is an operation, update next 1`] = `
+Object {
+  "next": "12",
+  "operation": "+",
+  "total": null,
+}
+`;
+
+exports[`User pressed an operation after pressing = 1`] = `
+Object {
+  "next": null,
+  "operation": "+",
+  "total": 1000,
+}
+`;
+
+exports[`User pressed an operation button and there is an existing operation - no next 1`] = `
+Object {
+  "next": null,
+  "operation": "+",
+  "total": 1000,
+}
+`;
+
+exports[`buttonname and obj.next === 0 1`] = `
+Object {
+  "next": "0",
+  "total": null,
+}
+`;
+
+exports[`will return 0 every time 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": 0,
+}
+`;
+
+exports[`will return decimal 0. 1`] = `
+Object {
+  "next": "0.",
+  "operation": null,
+  "total": 0,
+}
+`;
