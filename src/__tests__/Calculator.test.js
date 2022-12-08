@@ -3,7 +3,7 @@ import Calculator from '../components/Calculator';
 
 it('renders correctly', () => {
   const calculator = renderer
-  .create(<Calculator />)
-  .toJSON();
+    .create(<Calculator />)
+    .toJSON();
   expect(calculator).toMatchSnapshot();
 });
